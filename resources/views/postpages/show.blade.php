@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-	<a href="{{ url()->previous() }}" class="btn btn-default"> < Go Back</a>
+	<a href="{{ action('PostsController@index') }}" class="btn btn-default"> < Go Back</a>
 
 	<h1> {{ $post->title }} </h1>
 	
