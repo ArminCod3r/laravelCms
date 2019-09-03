@@ -15,6 +15,8 @@
             <ul class="nav navbar-nav">
                 <li><a href="/"> Home </a></li>
                 <li><a href="/about"> About </a></li>
+
+                <!-- https://getbootstrap.com/docs/3.4/examples/navbar/ -->
                 <li class="dropdown">
 
                 <a href="/posts" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Posts <span class="caret"></span></a>
