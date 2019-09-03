@@ -15,6 +15,12 @@
 
 	<hr>
 
-	<a href="{{ $post->id }}/edit" class="btn btn-default">Edit</a> 
+	<a href="{{ $post->id }}/edit" class="btn btn-default">Edit</a>
+
+	<form action="{{route('posts.destroy', $post->id ) }}" method="POST" accept-charset="utf-8" class="pull-right">
+		{{ csrf_field() }}		
+		<input type="hidden" name="_method" value="DELETE">
+		<input type="submit" name="submit" value="DELETE" class="btn btn-danger">
+	</form>
 		
 @endsection
