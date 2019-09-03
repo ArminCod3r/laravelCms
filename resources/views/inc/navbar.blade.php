@@ -13,10 +13,29 @@
         
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"> Home </a></li>
+                <li><a href="/"> Home </a></li>
                 <li><a href="/about"> About </a></li>
-                <li><a href="/posts"> Post </a></li>
+                <li class="dropdown">
+
+                <a href="/posts" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Posts <span class="caret"></span></a>
+
+                <ul class="dropdown-menu">
+                  <li><a href="/posts">Posts</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">more</li>
+                  <li><a href="/posts/create">Create</a></li>
+                </ul>
+
+              </li>
+
             </ul>
         </div>
+
+
+
+          
+
     </div>
+
+    
 </nav>  
