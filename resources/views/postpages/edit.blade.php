@@ -2,6 +2,10 @@
 
 @section('content')
 
+	<a href="{{ url()->previous() }}" class="btn btn-default"> < Go Back</a>
+	<br/>
+	<br/>
+
 	<form action="{{route('posts.update', $post->id ) }}" method="POST" accept-charset="utf-8">
 		{{ csrf_field() }}
 		
