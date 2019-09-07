@@ -1,4 +1,4 @@
-@extends('layout/app')
+@extends('layouts/app')
 
 @section('content')
 
@@ -17,7 +17,7 @@
 
 		<div class="form-group">
 			<label for="body">Body</label><br/>
-  			<textarea rows="4" cols="50" name="body" class="form-control" value=""> {{ $post->body}} </textarea>
+  			<textarea id="article-ckeditor" rows="4" cols="50" name="body" class="form-control" value=""> {{ $post->body}} </textarea>
 		</div>
 
 		<input type="hidden" name="_method" value="PATCH">

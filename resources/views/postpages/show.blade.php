@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
 	<a href="{{ action('PostsController@index') }}" class="btn btn-default"> < Go Back</a>
