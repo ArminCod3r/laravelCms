@@ -15,6 +15,10 @@
                     @endif
 
                     You are logged in!
+                    <br/><br/>                    
+
+                    <a href="/posts/create" class="btn btn-primary">Create Post</a>
+
                 </div>
             </div>
         </div>
