@@ -11,7 +11,7 @@
 	</div>
 
 	<hr>
-	<small> Written on: {{ $post->created_at }} - update at: {{$post->updated_at}}</small>
+	<small> Written on: {{ $post->created_at }} - By: {{ $post->user->name }} </small>
 
 	<hr>
 
