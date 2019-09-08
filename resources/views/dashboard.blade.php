@@ -32,7 +32,7 @@
 
                     @foreach($posts as $item)
                         <tr>
-                            <td> {{ $item->title }} </td>
+                            <td> <a href="posts/{{ $item->id }}">{{ $item->title }}</a> </td>
                             <td> <a href="posts/{{ $item->id }}/edit" class="btn btn-default"> Edit </a> </td>
                             <td>
                                 <form action="{{route('posts.destroy', $item->id ) }}" method="POST" accept-charset="utf-8" class="pull-right">
