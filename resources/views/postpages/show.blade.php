@@ -4,6 +4,12 @@
 	<a href="{{ action('PostsController@index') }}" class="btn btn-default"> < Go Back</a>
 
 	<h1> {{ $post->title }} </h1>
+
+	<center>
+		<img src="/storage/cover_images/{{ $post->cover_image }}">
+	</center>
+	
+	<br><br>
 	
 
 	<div>
