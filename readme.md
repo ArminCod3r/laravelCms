@@ -49,12 +49,10 @@ purchase status:
 ![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/9-purchase%20details.png?raw=true)
 ![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/10-purchase%20status.png?raw=true)
 
-admin panel:
+admin panel/orders list/order manamgent:
 ![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/11-admin%20panel.png?raw=true)
 
-orders list:
-![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/12-orders%20list.png?raw=true)
+![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/11-admin%20panel-orders%20list.png?raw=true)
 
-order manamgent:
-![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/13-order%20managment.png?raw=true)
+![alt text](https://github.com/ArminCod3r/LaravelCMS/blob/master/pictures/11-admin%20panel-order%20managment.png?raw=true)
 
